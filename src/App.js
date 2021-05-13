@@ -6,7 +6,7 @@ function App() {
   return (
     <div> 
       <h1>Guess the Word</h1>
-      <p>6 Tries</p>
+      <p>8 Tries</p>
         <Manager/>
 
     </div>

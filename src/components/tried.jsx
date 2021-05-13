@@ -8,4 +8,4 @@ function Tried(props) {
     );
 }
 
-export default Tried;///
+export default Tried;

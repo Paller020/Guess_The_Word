@@ -27,7 +27,6 @@ function Manager(props) {
     })
     
     useEffect(()=>{
-       // console.log(played)
         if (!word.includes(played[played.length-1])) {
             setIncorrect(incorrect + 1);
             console.log('Wrong');
@@ -36,7 +35,7 @@ function Manager(props) {
             setCorrect(correct + 1);
         }
 
-        if(incorrect >= 6){
+        if(incorrect >= 9){
             alert(word);
         }
         
@@ -51,7 +50,6 @@ function Manager(props) {
         let tried = [];
         for (let i = 0; i < wordP.length; i++) {
             if (tried.includes(wordP[i])) {
-                //console.log(tried)
                 break;
             }
 
@@ -78,7 +76,7 @@ function Manager(props) {
         }
     }
 
-  //
+ 
     return (
         <div>
             <Tried/>
