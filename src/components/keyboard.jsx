@@ -34,5 +34,5 @@ function Keyboard({chosenWord,gameOver,played,setPlayed, correctLetters, setCorr
         </div>
     );
 }
-
+//
 export default Keyboard;

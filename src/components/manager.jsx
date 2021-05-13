@@ -78,7 +78,7 @@ function Manager(props) {
         }
     }
 
-  
+  //
     return (
         <div>
             <Tried/>
