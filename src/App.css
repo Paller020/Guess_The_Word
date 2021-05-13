@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  display:flex;
+  justify-content: center;
+  font-family: 'Goblin One', cursive;
+}
+
+p{
+  display:flex;
+  justify-content: flex-end;
+  font-family: 'Goblin One', cursive;
+  
+}
+
+.tiles{
+  display:flex;
+  justify-content: center;
+  gap: 5px;
+}
